@@ -23,13 +23,14 @@ class InviteCode {
 
     //邀请码是否有效检测
     function IsCodeOk(){
-        if($this->db->has("invite_code",[
-            "code" => $this->code
-        ])){
-            return 1;
-        }else{
-            return 0;
-        }
+//        if($this->db->has("invite_code",[
+//            "code" => $this->code
+//        ])){
+//            return 1;
+//        }else{
+//            return 0;
+//        }
+          return 1;
     }
 
     function GetCodeArray(){
