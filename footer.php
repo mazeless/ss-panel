@@ -1,45 +1,58 @@
-<footer class="page-footer orange">
-    <div class="container">
-        <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">关于</h5>
-                <p class="grey-text text-lighten-4">本站提供某种帐号用于科学上网.</p>
-
-
-            </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">用户</h5>
-                <ul>
-                    <li><a class="white-text" href="user">用户中心</a></li>
-                    <li><a class="white-text" href="user/login.php">登录</a></li>
-                    <li><a class="white-text" href="user/register.php">注册</a></li>
-                </ul>
-            </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">页面</h5>
-                <ul>
-                    <li><a class="white-text" href="code.php">邀请码</a></li>
-                    <li><a class="white-text" href="user/tos.php">TOS</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="footer-copyright">
-        <div class="container">
-            &copy; <?php echo $site_name."  ".date('Y'); ?>  Powered by <a class="orange-text text-lighten-3" href="https://github.com/orvice/ss-panel">ss-panel</a> <?php echo $version; ?>
-            Processed in <?php
-            $Runtime->Stop();
-            echo $Runtime->SpendTime()."ms";
-            ?> Theme by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-        </div>
-    </div>
+<footer class="major container 75%">
+  <h3>现在尝试</h3>
+  <ul class="actions">
+    <li><a href="user/register.php" id="download-button" class="button">立即使用</a></li>
+  </ul>
 </footer>
 
+</div>
 
-<!--  Scripts-->
-<script src="asset/js/jQuery.min.js"></script>
-<script src="asset/materialize/js/materialize.min.js"></script>
-<script src="asset/materialize/js/init.js"></script>
+<!-- Footer -->
+<div id="footer">
+<div class="container 75%">
+
+  <header class="major last">
+    <h2>Questions or comments?</h2>
+  </header>
+
+  <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor
+  orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
+
+  <form method="post" action="#">
+    <div class="row">
+      <div class="6u 12u(mobilep)">
+        <input type="text" name="name" placeholder="Name" />
+      </div>
+      <div class="6u 12u(mobilep)">
+        <input type="email" name="email" placeholder="Email" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="12u">
+        <textarea name="message" placeholder="Message" rows="6"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="12u">
+        <ul class="actions">
+          <li><input type="submit" value="Send Message" /></li>
+        </ul>
+      </div>
+    </div>
+  </form>
+  <ul class="copyright">
+    <li>&copy; Mazeless. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+  </ul>
+
+</div>
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="assets/js/main.js"></script>
 
 </body>
 </html>

@@ -3,67 +3,29 @@ include_once 'lib/config.php';
 include_once 'header.php';
 ?>
 
+				<div class="box alt container">
+					<section class="feature left">
+						<a href="#" class="image icon fa-signal"><img src="images/pic01.jpg" alt="" /></a>
+						<div class="content">
+							<h3>稳定的连接</h3>
+							<p>Mazeless&nbsp;使用稳定的隧道协议，保证24小时不间断提供服务，内外无阻。</p>
+						</div>
+					</section>
+					<section class="feature right">
+						<a href="#" class="image icon fa-code"><img src="images/pic02.jpg" alt="" /></a>
+						<div class="content">
+							<h3>多设备支持</h3>
+							<p>Mazeless&nbsp;支持&nbsp;Mac、PC、iOS、Android&nbsp;甚至使用OpenWrt的路由器，使用方便，部署迅速。您可以在付款后参考<a href="help.mazeless.xyz">帮助页面进行操作</a></p>
+						</div>
+					</section>
+					<section class="feature left">
+						<a href="#" class="image icon fa-mobile"><img src="images/pic03.jpg" alt="" /></a>
+						<div class="content">
+							<h3>弹性的价格方案</h3>
+							<p>一次购买包月&nbsp;&nbsp;30&nbsp;&nbsp;&nbsp;RMB<br />一次购买包年&nbsp;300&nbsp;RMB</p>
+						</div>
+					</section>
+				</div>
 
-<div class="section no-pad-bot" id="index-banner">
-        <div class="container">
-            <br><br>
-            <h1 class="header center orange-text"><?php echo $site_name; ?></h1>
-            <div class="row center">
-                <h5 class="header col s12 light">轻松科学上网   保护个人隐私</h5>
-            </div>
-            <div class="row center">
-                <a href="user/register.php" id="download-button" class="btn-large waves-effect waves-light orange">立即注册</a>
-            </div>
-            <br><br>
-        </div>
-</div>
-
-
-<div class="container">
-    <div class="section">
-
-        <!--   Icon Section   -->
-        <div class="row">
-            <div class="col s12 m4">
-                <div class="icon-block">
-                    <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-                    <h5 class="center">Super Fast</h5>
-
-                    <p class="light">
-                        Bleeding edge techniques using Asynchronous I/O and Event-driven programming.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col s12 m4">
-                <div class="icon-block">
-                    <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-                    <h5 class="center">Open Source</h5>
-
-                    <p class="light">
-                        Totally free and open source. A worldwide community devoted to deliver bug-free code and long-term support.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col s12 m4">
-                <div class="icon-block">
-                    <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-                    <h5 class="center">Easy to work with</h5>
-
-                    <p class="light">
-                        Available on multiple platforms, including PC, MAC, Mobile (Android and iOS) and Routers (OpenWRT).
-                    </p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <br><br>
-
-    <div class="section">
-
-    </div>
-</div>
 <?php  include_once 'ana.php';
        include_once 'footer.php';?>
