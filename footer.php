@@ -41,7 +41,7 @@
     </div>
   </form>
   <ul class="copyright">
-    <li>&copy; Mazeless. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+    <li>&copy; Mazeless. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Powered by ss-panel</li>
   </ul>
 
 </div>
