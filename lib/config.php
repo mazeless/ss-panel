@@ -49,8 +49,8 @@ $pwd_mode = 1;
 
 //用户注册后获得的邀请码最低最高
 //都设置为0用户就不能邀请
-  $user_invite_min = '0';
-  $user_invite_max = '0';
+  $user_invite_min = '1';
+  $user_invite_max = '100';
 
 
 //
